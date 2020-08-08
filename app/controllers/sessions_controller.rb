@@ -17,3 +17,6 @@ class SessionsController < ApplicationController
     request.env['omniauth.auth']
   end
 end
+
+
+#The end result should be gaining access to the user's data from the provider in your SessionsController, where you can then decide what to do with it
